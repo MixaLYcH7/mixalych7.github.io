@@ -1,0 +1,338 @@
+body {
+  background-color: black;
+}
+#osnova {
+  display: flex;
+  height: 1000px;
+  background-color: white;
+  border-radius: 25px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10;
+  justify-content: center;
+}
+#koks {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: auto;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+  height: 100px;
+  width: 400px;
+  border-radius: 25px;
+  background-color: black;
+}
+.button {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  font-size: 45px;
+  border-radius: 20px;
+  background-color: orange;
+}
+
+.button:hover {
+  border: 10px solid rgb(184, 184, 184);
+  background-color: rgb(184, 184, 184);
+  transition: 0.7s;
+}
+
+#html1 {
+  background-color: rgb(184, 184, 184);
+}
+
+#html1:hover {
+  border: 10px solid orange;
+  background-color: orange;
+  transition: 0.7s;
+}
+
+#zagolovok {
+  display: flex;
+  height: 200px;
+  width: 400px;
+  margin: 25px;
+  font-size: 25px;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Game {
+  display: flex;
+  height: 500px;
+  width: 300px auto;
+  font-size: 40px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#play {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(255, 242, 0);
+  color: black;
+  border: 4px solid rgb(255, 98, 0);
+  font-size: 30px;
+  border-radius: 25px;
+}
+
+#play:hover {
+  background-color: #49b622;
+  color: rgb(0, 0, 0);
+  border: 10px solid rgb(255, 98, 0);
+  transition: 0.7s;
+}
+
+.submit {
+  display: flex;
+  height: 100px;
+  margin: 20px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: orange;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 60px;
+}
+
+.submit:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.7s;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  #osnova {
+    display: flex;
+    height: 1000px;
+    background-color: white;
+    border-radius: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10;
+    justify-content: center;
+  }
+  #koks {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: auto;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 100px;
+    width: 300px;
+    border-radius: 25px;
+    background-color: black;
+  }
+  .button {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: orange;
+  }
+
+  .button:hover {
+    border: 5px solid rgb(184, 184, 184);
+    background-color: rgb(184, 184, 184);
+    transition: 0.7s;
+  }
+
+  #html1 {
+    background-color: rgb(184, 184, 184);
+  }
+
+  #html1:hover {
+    border: 5px solid orange;
+    background-color: orange;
+    transition: 0.7s;
+  }
+
+  #zagolovok {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    margin: 25px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Game {
+    display: flex;
+    height: 350px;
+    width: 90px auto;
+    border-radius: 25px;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #play {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 242, 0);
+    color: black;
+    border: 4px solid rgb(255, 98, 0);
+    font-size: 24px;
+    border-radius: 25px;
+  }
+
+  #play:hover {
+    background-color: #49b622;
+    color: rgb(0, 0, 0);
+    border: 10px solid rgb(255, 98, 0);
+    transition: 0.7s;
+  }
+
+  .submit {
+    display: flex;
+    height: 80px;
+    margin: 20px;
+    width: 80px;
+    border-radius: 25px;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 60px;
+  }
+
+  .submit:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+  }
+
+  img {
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .content {
+    margin: 0 auto;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+  }
+  .button {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    font-size: 30px;
+  }
+
+  .button:hover {
+    border: 3px solid rgb(184, 184, 184);
+    background-color: rgb(184, 184, 184);
+    transition: 0.7s;
+  }
+
+  #html1 {
+    background-color: rgb(184, 184, 184);
+  }
+
+  #html1:hover {
+    border: 3px solid orange;
+    background-color: orange;
+    transition: 0.7s;
+  }
+
+  #zagolovok {
+    height: 100px;
+    width: 200px;
+    margin: 10px auto;
+    font-size: 13px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Game {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: black;
+    font-size: 28px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #play {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(255, 242, 0);
+    color: black;
+    border: 4px solid rgb(255, 98, 0);
+    font-size: 18px;
+    border-radius: 25px;
+  }
+
+  #play:hover {
+    background-color: #49b622;
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(255, 98, 0);
+    transition: 0.7s;
+  }
+
+  .submit {
+    display: flex;
+    height: 50px;
+    margin: 10px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+  }
+
+  .submit:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+  }
+}
