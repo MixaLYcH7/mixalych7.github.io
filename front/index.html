@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WeatherInTheSamara</title>
+  </head>
+  <body>
+    <div id="background-wrap">
+      <div class="x1">
+        <div class="cloud"></div>
+      </div>
+      <div class="x2">
+        <div class="cloud"></div>
+      </div>
+      <div class="x3">
+        <div class="cloud"></div>
+      </div>
+      <div class="x4">
+        <div class="cloud"></div>
+      </div>
+      <div class="x5">
+        <div class="cloud"></div>
+      </div>
+    </div>
+    <div class="search">
+      <input id="search1" type="text" />
+      <button id="search2" onclick="Searching()">Search</button>
+    </div>
+    <div class="content">
+      <div class="card">
+        <div class="tower">
+          <h1 id="Tower">Samara</h1>
+          <div id="Pogoda"><img src="../img/oblako.png" alt="" /></div>
+        </div>
+        <div class="number">
+          <div id="num">
+            <p id="nu1">+5°C</p>
+          </div>
+          <div id="Time">
+            <p id="Timer">20:30</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="pump">
+          <div id="weekday">
+            <div>
+              <p class="week">Moscow</p>
+            </div>
+          </div>
+          <div id="info">
+            <p id="num1">+5°C</p>
+            <div id="pimg1">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="pump">
+          <div id="weekday">
+            <div>
+              <p class="week">London</p>
+            </div>
+          </div>
+          <div id="info">
+            <p id="num2">+3°C</p>
+            <div id="pimg2">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="pump">
+          <div id="weekday">
+            <div>
+              <p class="week">Dubai</p>
+            </div>
+          </div>
+          <div id="info">
+            <p id="num3">+7°C</p>
+            <div id="pimg3">
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
