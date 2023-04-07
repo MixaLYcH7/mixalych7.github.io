@@ -16,7 +16,7 @@ function Searching() {
       let lat = data.coord.lat;
       let lon = data.coord.lon;
       fetch(
-        `http://api.timezonedb.com/v2.1/get-time-zone?key=M6Z4BNG32BH0&format=json&by=position&lat=${lat}&lng=${lon}`
+        `https://api.timezonedb.com/v2.1/get-time-zone?key=M6Z4BNG32BH0&format=json&by=position&lat=${lat}&lng=${lon}`
         // { mode: "no-cors" }
       )
         .then(function (resp) {
@@ -257,7 +257,7 @@ function start() {
       let lat = data.coord.lat;
       let lon = data.coord.lon;
       fetch(
-        `http://api.timezonedb.com/v2.1/get-time-zone?key=M6Z4BNG32BH0&format=json&by=position&lat=${lat}&lng=${lon}`
+        `https://api.timezonedb.com/v2.1/get-time-zone?key=M6Z4BNG32BH0&format=json&by=position&lat=${lat}&lng=${lon}`
         // { mode: "no-cors" }
       )
         .then(function (resp) {
